@@ -22,7 +22,7 @@ import org.scalatest._
 import org.scalatest.BeforeAndAfter
 
 import org.apache.spark.{SparkConf, SparkFunSuite}
-import org.apache.spark.deploy.k8s.{KubernetesConf, KubernetesDriverSpecificConf, KubernetesRoleSpecificConf, SparkPod}
+import org.apache.spark.deploy.k8s._
 import org.apache.spark.deploy.k8s.Config._
 
 class LocalDirsFeatureStepSuite extends SparkFunSuite with BeforeAndAfter {
